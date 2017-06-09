@@ -1,9 +1,12 @@
 # Kata Bowling Haskell
 
+This code was produced in the [Software Craftsmanship meetup in Sydney](https://www.meetup.com/Software-Craftsmanship-Sydney/events/240440786/)
+
 The purpose of this program is to calculate the Bowling score of a game.
 
 
 *Note:* This kata wasn't finish, the final version is available [here](https://github.com/ThibautGery/dojo-haskell-bowling), there is a commit for each steps
+
 
 ## Requirement
 
