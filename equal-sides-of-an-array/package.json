@@ -1,0 +1,15 @@
+{
+  "name": "tcr-dojo",
+  "version": "0.0.0-dev",
+  "private": true,
+  "scripts": {
+    "tcr": "(mocha && git commit -am '👌') || git reset --hard",
+    "wait": "node -e 'require(`chokidar`).watch(`**/*.js`).on(`change`,_=>process.exit(0))'",
+    "tcr-watch": "while true; do npm run wait; npm run tcr; done"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chokidar": "2.0.4",
+    "mocha": "5.2.0"
+  }
+}
